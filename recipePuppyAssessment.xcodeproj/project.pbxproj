@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F206D27A2249286400BBF25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F206D2792249286400BBF25C /* AppDelegate.swift */; };
+		F206D27C2249286400BBF25C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F206D27B2249286400BBF25C /* ViewController.swift */; };
+		F206D27F2249286400BBF25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F206D27D2249286400BBF25C /* Main.storyboard */; };
+		F206D2812249286600BBF25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F206D2802249286600BBF25C /* Assets.xcassets */; };
+		F206D2842249286600BBF25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F206D2822249286600BBF25C /* LaunchScreen.storyboard */; };
+		F206D28F2249286600BBF25C /* recipePuppyAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F206D28E2249286600BBF25C /* recipePuppyAssessmentTests.swift */; };
+		F206D29A2249286600BBF25C /* recipePuppyAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F206D2992249286600BBF25C /* recipePuppyAssessmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F206D28B2249286600BBF25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F206D26E2249286400BBF25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F206D2752249286400BBF25C;
+			remoteInfo = recipePuppyAssessment;
+		};
+		F206D2962249286600BBF25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F206D26E2249286400BBF25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F206D2752249286400BBF25C;
+			remoteInfo = recipePuppyAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F206D2762249286400BBF25C /* recipePuppyAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipePuppyAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F206D2792249286400BBF25C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F206D27B2249286400BBF25C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F206D27E2249286400BBF25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F206D2802249286600BBF25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F206D2832249286600BBF25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F206D2852249286600BBF25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F206D28A2249286600BBF25C /* recipePuppyAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipePuppyAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F206D28E2249286600BBF25C /* recipePuppyAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipePuppyAssessmentTests.swift; sourceTree = "<group>"; };
+		F206D2902249286600BBF25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F206D2952249286600BBF25C /* recipePuppyAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipePuppyAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F206D2992249286600BBF25C /* recipePuppyAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipePuppyAssessmentUITests.swift; sourceTree = "<group>"; };
+		F206D29B2249286600BBF25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F206D2732249286400BBF25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F206D2872249286600BBF25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F206D2922249286600BBF25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F206D26D2249286400BBF25C = {
+			isa = PBXGroup;
+			children = (
+				F206D2782249286400BBF25C /* recipePuppyAssessment */,
+				F206D28D2249286600BBF25C /* recipePuppyAssessmentTests */,
+				F206D2982249286600BBF25C /* recipePuppyAssessmentUITests */,
+				F206D2772249286400BBF25C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F206D2772249286400BBF25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F206D2762249286400BBF25C /* recipePuppyAssessment.app */,
+				F206D28A2249286600BBF25C /* recipePuppyAssessmentTests.xctest */,
+				F206D2952249286600BBF25C /* recipePuppyAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F206D2782249286400BBF25C /* recipePuppyAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				F206D2792249286400BBF25C /* AppDelegate.swift */,
+				F206D27B2249286400BBF25C /* ViewController.swift */,
+				F206D27D2249286400BBF25C /* Main.storyboard */,
+				F206D2802249286600BBF25C /* Assets.xcassets */,
+				F206D2822249286600BBF25C /* LaunchScreen.storyboard */,
+				F206D2852249286600BBF25C /* Info.plist */,
+			);
+			path = recipePuppyAssessment;
+			sourceTree = "<group>";
+		};
+		F206D28D2249286600BBF25C /* recipePuppyAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F206D28E2249286600BBF25C /* recipePuppyAssessmentTests.swift */,
+				F206D2902249286600BBF25C /* Info.plist */,
+			);
+			path = recipePuppyAssessmentTests;
+			sourceTree = "<group>";
+		};
+		F206D2982249286600BBF25C /* recipePuppyAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F206D2992249286600BBF25C /* recipePuppyAssessmentUITests.swift */,
+				F206D29B2249286600BBF25C /* Info.plist */,
+			);
+			path = recipePuppyAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F206D2752249286400BBF25C /* recipePuppyAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F206D29E2249286600BBF25C /* Build configuration list for PBXNativeTarget "recipePuppyAssessment" */;
+			buildPhases = (
+				F206D2722249286400BBF25C /* Sources */,
+				F206D2732249286400BBF25C /* Frameworks */,
+				F206D2742249286400BBF25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = recipePuppyAssessment;
+			productName = recipePuppyAssessment;
+			productReference = F206D2762249286400BBF25C /* recipePuppyAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F206D2892249286600BBF25C /* recipePuppyAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F206D2A12249286600BBF25C /* Build configuration list for PBXNativeTarget "recipePuppyAssessmentTests" */;
+			buildPhases = (
+				F206D2862249286600BBF25C /* Sources */,
+				F206D2872249286600BBF25C /* Frameworks */,
+				F206D2882249286600BBF25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F206D28C2249286600BBF25C /* PBXTargetDependency */,
+			);
+			name = recipePuppyAssessmentTests;
+			productName = recipePuppyAssessmentTests;
+			productReference = F206D28A2249286600BBF25C /* recipePuppyAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F206D2942249286600BBF25C /* recipePuppyAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F206D2A42249286600BBF25C /* Build configuration list for PBXNativeTarget "recipePuppyAssessmentUITests" */;
+			buildPhases = (
+				F206D2912249286600BBF25C /* Sources */,
+				F206D2922249286600BBF25C /* Frameworks */,
+				F206D2932249286600BBF25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F206D2972249286600BBF25C /* PBXTargetDependency */,
+			);
+			name = recipePuppyAssessmentUITests;
+			productName = recipePuppyAssessmentUITests;
+			productReference = F206D2952249286600BBF25C /* recipePuppyAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F206D26E2249286400BBF25C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Harold;
+				TargetAttributes = {
+					F206D2752249286400BBF25C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					F206D2892249286600BBF25C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F206D2752249286400BBF25C;
+					};
+					F206D2942249286600BBF25C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F206D2752249286400BBF25C;
+					};
+				};
+			};
+			buildConfigurationList = F206D2712249286400BBF25C /* Build configuration list for PBXProject "recipePuppyAssessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F206D26D2249286400BBF25C;
+			productRefGroup = F206D2772249286400BBF25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F206D2752249286400BBF25C /* recipePuppyAssessment */,
+				F206D2892249286600BBF25C /* recipePuppyAssessmentTests */,
+				F206D2942249286600BBF25C /* recipePuppyAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F206D2742249286400BBF25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206D2842249286600BBF25C /* LaunchScreen.storyboard in Resources */,
+				F206D2812249286600BBF25C /* Assets.xcassets in Resources */,
+				F206D27F2249286400BBF25C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F206D2882249286600BBF25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F206D2932249286600BBF25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F206D2722249286400BBF25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206D27C2249286400BBF25C /* ViewController.swift in Sources */,
+				F206D27A2249286400BBF25C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F206D2862249286600BBF25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206D28F2249286600BBF25C /* recipePuppyAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F206D2912249286600BBF25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206D29A2249286600BBF25C /* recipePuppyAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F206D28C2249286600BBF25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F206D2752249286400BBF25C /* recipePuppyAssessment */;
+			targetProxy = F206D28B2249286600BBF25C /* PBXContainerItemProxy */;
+		};
+		F206D2972249286600BBF25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F206D2752249286400BBF25C /* recipePuppyAssessment */;
+			targetProxy = F206D2962249286600BBF25C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F206D27D2249286400BBF25C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F206D27E2249286400BBF25C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F206D2822249286600BBF25C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F206D2832249286600BBF25C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F206D29C2249286600BBF25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F206D29D2249286600BBF25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F206D29F2249286600BBF25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = recipePuppyAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mixed.recipePuppyAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F206D2A02249286600BBF25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = recipePuppyAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mixed.recipePuppyAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F206D2A22249286600BBF25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = recipePuppyAssessmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mixed.recipePuppyAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recipePuppyAssessment.app/recipePuppyAssessment";
+			};
+			name = Debug;
+		};
+		F206D2A32249286600BBF25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = recipePuppyAssessmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mixed.recipePuppyAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recipePuppyAssessment.app/recipePuppyAssessment";
+			};
+			name = Release;
+		};
+		F206D2A52249286600BBF25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = recipePuppyAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mixed.recipePuppyAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = recipePuppyAssessment;
+			};
+			name = Debug;
+		};
+		F206D2A62249286600BBF25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = recipePuppyAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mixed.recipePuppyAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = recipePuppyAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F206D2712249286400BBF25C /* Build configuration list for PBXProject "recipePuppyAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206D29C2249286600BBF25C /* Debug */,
+				F206D29D2249286600BBF25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F206D29E2249286600BBF25C /* Build configuration list for PBXNativeTarget "recipePuppyAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206D29F2249286600BBF25C /* Debug */,
+				F206D2A02249286600BBF25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F206D2A12249286600BBF25C /* Build configuration list for PBXNativeTarget "recipePuppyAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206D2A22249286600BBF25C /* Debug */,
+				F206D2A32249286600BBF25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F206D2A42249286600BBF25C /* Build configuration list for PBXNativeTarget "recipePuppyAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206D2A52249286600BBF25C /* Debug */,
+				F206D2A62249286600BBF25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F206D26E2249286400BBF25C /* Project object */;
+}
